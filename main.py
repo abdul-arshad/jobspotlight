@@ -1,7 +1,7 @@
 import telebot
 import scraping
 import time
-API_KEY = '2001832124:AAHUUlwWz9gK51O8JB_8__3SeaNegFZKvk4'
+API_KEY = ''
 bot = telebot.TeleBot(API_KEY)
 k = 'xyz'
 l = 'abc'
