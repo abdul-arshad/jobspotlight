@@ -9,7 +9,7 @@ date = []
 job_link = []
 
 def linkedin(keyword,loc):
-    driver = webdriver.Chrome(r"C:\Users\aarsh\PycharmProjects\telebot\venv\Lib\chromedriver.exe")
+    driver = webdriver.Chrome(r"insert the path of your chromedriver")
     driver.get("https://in.linkedin.com/jobs/search?keywords=&location=&geoId=&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0")
     time.sleep(5)
 
